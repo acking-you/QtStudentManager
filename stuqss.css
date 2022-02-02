@@ -1,0 +1,215 @@
+/*TODO 登录界面的布局 */
+/* 登录总界面的背景和字体 以及界面大小 */
+#LoginPage {
+    font-family:'Roboto', sans-serif;
+    border-radius: 5px;
+    background-color: rgba(251, 237, 245, 0.9);
+    min-height: 280px;
+    max-height: 280px;
+    min-width: 400px;
+    max-width: 400px;
+}
+/*todo 登录按钮的三种状态 */
+#loadBtn {
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100;
+    line-height: 1.4;
+    min-height: 18;
+    min-width: 100;
+    max-width: 200;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #3498db;
+
+} 
+#loadWidget QPushButton:hover {
+
+    background-color: #5dade2;
+}
+#loadWidget QPushButton:pressed {
+    border: 1px solid #138496;
+    background-color:#2c81ba;
+}
+
+
+/*todo 输入框和顶部的布局 */
+
+/* 输入框的布局和颜色，以及它的hover状态 */
+#loginPassword,#loginUsername{
+    border-radius: 6px;
+    padding: 8px 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    color: #34495e;
+
+}
+#LoginPage QLineEdit:focus{
+    border: 2px solid #bdc3c7;
+}
+#widget_4 {
+    background-color: rgba(250, 232, 242, 0.9);
+}
+
+/* disabled状态的lineedit背景颜色设置 */
+#authorInfo {
+    background-color:rgba(250, 232, 242, 0.9);
+}
+/* 退出按钮的三种状态颜色 */
+#widget_4 QPushButton{
+    border-radius: 20px;
+}
+#widget_4 QPushButton:hover {
+    background-color: rgba(236, 231, 234, 0.9);
+}
+#widget_4 QPushButton:pressed {
+    background-color: rgba(252, 209, 233, 0.9);
+}
+
+QPushButton#imp_btn{
+    font-weight: 350;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* TODO mainwindow的布局 */
+
+#centralwidget  {
+    background-color: rgba(248, 238, 244, 0.5);
+}
+#TopTitle {
+    font-family:'SimSun', sans-serif;
+    background-color:  rgba(223, 203, 215, 0.9);
+    padding-left: 0;
+    max-height: 38;
+}
+/* x按钮的三种状态颜色 */
+#TopTitle QPushButton{
+    border-radius: 20px;
+}
+#TopTitle QPushButton:hover {
+    background-color: rgba(236, 231, 234, 0.9);
+}
+#TopTitle QPushButton:pressed {
+    background-color: rgba(252, 209, 233, 0.9);
+}
+#TopTitle QLineEdit{
+    background-color:  rgba(223, 203, 215, 0.9);
+}
+
+
+/* 退出按钮的三种状态颜色 */
+#TopWidget QPushButton{
+    min-height: 28px;;
+    min-width: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    /*边框圆角半径为8像素*/ 
+    border-radius:8px;
+    color: rgba(170, 90, 90, 0.822);
+    background-color:rgb(240, 173, 173);
+}
+#TopWidget QPushButton:hover{
+    background-color:rgb(255, 103, 104);
+}
+#TopWidget QPushButton:pressed
+{
+    /*背景颜色*/  
+    background-color:rgb(231, 76, 60);
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:3px;
+}
+#username{
+    font-size: 12px;
+}
+
+/*todo 按钮样式 */
+#w3 QPushButton {
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+    min-width: 50px;
+    width:50;
+    line-height: 1.4;
+    min-height: 20;
+    border-radius: 5px;
+    padding: 5px 7px;
+    color: white;
+    background-color: #58ade6;
+
+} 
+#w3 QPushButton:hover {
+
+    background-color: #6ab3e4;
+}
+#w3 QPushButton:pressed {
+    border: 1px solid #138496;
+    background-color:#2c81ba;
+}
+
+#w4 QPushButton {
+    border: none;
+    width:25px;
+    min-width: 20px;
+    min-height: 20px;
+    color: white;
+    background-color:#f4eff2;
+} 
+#w4 QPushButton:hover {
+    background-color: #718dda91;
+}
+#w4 QPushButton:pressed {
+    border: 1px solid #0e94a8;
+    background-color: #4f7cf7a4;
+}
+
+
+
+/* 输入框的样式 */
+#w4 QLineEdit{
+    border-radius: 6px;
+    padding: 4px 6px;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    color: #34495e;
+
+}
+#w4 QLineEdit:focus{
+    border: 2px solid #bdc3c7;
+}
+
+
+
+/* 最底下的两个大家伙样式 */
+QTreeWidget{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#treeWidget{
+    color: rgba(53, 50, 50, 0.9);
+    font-size: 16px;
+    font-weight: 620;
+}
+
+QHeaderView::section{
+    border: solid 2px pink;
+    background-color: rgba(217, 228, 250, 0.9);
+    font: 14px "宋体";
+    height: 30px;
+}
+
+#imp_btn {
+    max-width: 170px;
+}
